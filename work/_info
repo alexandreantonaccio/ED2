@@ -4,156 +4,156 @@ K3
 cModel Technology
 Z0 dC:\altera\13.0sp1
 vCD4017
-Z1 IIL3:@PM@dl;Zf@Z90n15G3
-Z2 Vz3FSP<gJc?FY@RGKbZD[01
-Z3 dC:\Users\alexa\OneDrive\Documentos\GitHub\ED2
-Z4 w1727410059
-Z5 8C:/Users/alexa/OneDrive/Documentos/GitHub/ED2/cd4017_og.v
-Z6 FC:/Users/alexa/OneDrive/Documentos/GitHub/ED2/cd4017_og.v
+!i10b 1
+Z1 !s100 iKi90ec7]Hi@<n59XNYXg3
+Z2 IIL3:@PM@dl;Zf@Z90n15G3
+Z3 Vz3FSP<gJc?FY@RGKbZD[01
+Z4 dC:\Users\alexa\OneDrive\Documentos\GitHub\ED2
+Z5 w1727410059
+Z6 8C:/Users/alexa/OneDrive/Documentos/GitHub/ED2/cd4017_og.v
+Z7 FC:/Users/alexa/OneDrive/Documentos/GitHub/ED2/cd4017_og.v
 L0 1
-Z7 OV;L;10.1d;51
+Z8 OV;L;10.1d;51
 r1
-31
-Z8 o-work work -O0
-Z9 n@c@d4017
-Z10 !s100 iKi90ec7]Hi@<n59XNYXg3
-Z11 !s108 1727410067.377000
-Z12 !s107 C:/Users/alexa/OneDrive/Documentos/GitHub/ED2/cd4017_og.v|
-Z13 !s90 -reportprogress|300|-work|work|C:/Users/alexa/OneDrive/Documentos/GitHub/ED2/cd4017_og.v|
-!i10b 1
 !s85 0
+31
+!s108 1727411075.526000
+!s107 C:/Users/alexa/OneDrive/Documentos/GitHub/ED2/cd4017_og.v|
+Z9 !s90 -reportprogress|300|-work|work|C:/Users/alexa/OneDrive/Documentos/GitHub/ED2/cd4017_og.v|
 !s101 -O0
+Z10 o-work work -O0
+Z11 n@c@d4017
 vCD4017_custom
-Z14 IWTWYL]d_jb0=KgfU:UeNU1
-Z15 V;ei5KPKN3`l4@EG`hOLOf1
-R3
-Z16 w1727410061
-Z17 8C:/Users/alexa/OneDrive/Documentos/GitHub/ED2/cd4017.v
-Z18 FC:/Users/alexa/OneDrive/Documentos/GitHub/ED2/cd4017.v
+Z12 !s100 8W1;877Gg38H;dFDjlW>U3
+Z13 IWTWYL]d_jb0=KgfU:UeNU1
+Z14 V;ei5KPKN3`l4@EG`hOLOf1
+R4
+Z15 w1727410061
+Z16 8C:/Users/alexa/OneDrive/Documentos/GitHub/ED2/cd4017.v
+Z17 FC:/Users/alexa/OneDrive/Documentos/GitHub/ED2/cd4017.v
 L0 2
-R7
+R8
 r1
 31
-Z19 !s90 -reportprogress|300|-work|work|C:/Users/alexa/OneDrive/Documentos/GitHub/ED2/cd4017.v|
-R8
-Z20 n@c@d4017_custom
-Z21 !s100 8W1;877Gg38H;dFDjlW>U3
-Z22 !s108 1727410067.338000
-Z23 !s107 C:/Users/alexa/OneDrive/Documentos/GitHub/ED2/cd4017.v|
+Z18 !s90 -reportprogress|300|-work|work|C:/Users/alexa/OneDrive/Documentos/GitHub/ED2/cd4017.v|
+R10
+Z19 n@c@d4017_custom
 !i10b 1
 !s85 0
+Z20 !s108 1727411075.485000
+Z21 !s107 C:/Users/alexa/OneDrive/Documentos/GitHub/ED2/cd4017.v|
 !s101 -O0
 vrelogio
-Z24 !s100 TIKz585>Rl[cdS?0`[fdb2
-Z25 I:fb9lOD;9e:kNE7^;W`CZ2
-Z26 V;^53Qf]Bj43kcbVonFaBQ3
-R3
-Z27 w1727403871
-Z28 8C:/Users/alexa/OneDrive/Documentos/GitHub/ED2/relogio_digital.v
-Z29 FC:/Users/alexa/OneDrive/Documentos/GitHub/ED2/relogio_digital.v
+Z22 !s100 TIKz585>Rl[cdS?0`[fdb2
+Z23 I:fb9lOD;9e:kNE7^;W`CZ2
+Z24 V;^53Qf]Bj43kcbVonFaBQ3
+R4
+Z25 w1727411069
+Z26 8C:/Users/alexa/OneDrive/Documentos/GitHub/ED2/relogio_digital.v
+Z27 FC:/Users/alexa/OneDrive/Documentos/GitHub/ED2/relogio_digital.v
 L0 1
-R7
+R8
 r1
 31
-Z30 !s90 -reportprogress|300|-work|work|C:/Users/alexa/OneDrive/Documentos/GitHub/ED2/relogio_digital.v|
-R8
-Z31 !s108 1727410067.174000
-Z32 !s107 C:/Users/alexa/OneDrive/Documentos/GitHub/ED2/relogio_digital.v|
+Z28 !s90 -reportprogress|300|-work|work|C:/Users/alexa/OneDrive/Documentos/GitHub/ED2/relogio_digital.v|
+R10
+Z29 !s108 1727411075.319000
+Z30 !s107 C:/Users/alexa/OneDrive/Documentos/GitHub/ED2/relogio_digital.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vrelogio_alterado
-Z33 I4icY3bG:<3]3Y7f8T7ISi1
-Z34 VgR42:4LD1U5ML=5Eg=W^P0
-R3
-Z35 w1727409867
-Z36 8C:/Users/alexa/OneDrive/Documentos/GitHub/ED2/relogio_modificado.v
-Z37 FC:/Users/alexa/OneDrive/Documentos/GitHub/ED2/relogio_modificado.v
+Z31 !s100 OgK9eaTPW;=a17z8Xia3?3
+Z32 I4icY3bG:<3]3Y7f8T7ISi1
+Z33 VgR42:4LD1U5ML=5Eg=W^P0
+R4
+Z34 w1727409867
+Z35 8C:/Users/alexa/OneDrive/Documentos/GitHub/ED2/relogio_modificado.v
+Z36 FC:/Users/alexa/OneDrive/Documentos/GitHub/ED2/relogio_modificado.v
 L0 1
-R7
+R8
 r1
 31
-Z38 !s90 -reportprogress|300|-work|work|C:/Users/alexa/OneDrive/Documentos/GitHub/ED2/relogio_modificado.v|
-R8
-Z39 !s100 OgK9eaTPW;=a17z8Xia3?3
-Z40 !s108 1727410067.256000
-Z41 !s107 C:/Users/alexa/OneDrive/Documentos/GitHub/ED2/relogio_modificado.v|
+Z37 !s90 -reportprogress|300|-work|work|C:/Users/alexa/OneDrive/Documentos/GitHub/ED2/relogio_modificado.v|
+R10
+Z38 !s108 1727411075.404000
+Z39 !s107 C:/Users/alexa/OneDrive/Documentos/GitHub/ED2/relogio_modificado.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vrelogio_tb
-Z42 Ikg>CL0j@el@LKn0Fe6[;g0
-Z43 VTD04S?SGMEW>]mKRRZREZ3
-R3
-Z44 w1727410105
-Z45 8C:/Users/alexa/OneDrive/Documentos/GitHub/ED2/testbench_alterado.v
-Z46 FC:/Users/alexa/OneDrive/Documentos/GitHub/ED2/testbench_alterado.v
+Z40 !s100 ;zK2o0NReOEzARfQG`]In2
+Z41 Ikg>CL0j@el@LKn0Fe6[;g0
+Z42 VTD04S?SGMEW>]mKRRZREZ3
+R4
+Z43 w1727410105
+Z44 8C:/Users/alexa/OneDrive/Documentos/GitHub/ED2/testbench_alterado.v
+Z45 FC:/Users/alexa/OneDrive/Documentos/GitHub/ED2/testbench_alterado.v
 L0 3
-R7
+R8
 r1
 31
-Z47 !s90 -reportprogress|300|-work|work|C:/Users/alexa/OneDrive/Documentos/GitHub/ED2/testbench_alterado.v|
-R8
-Z48 !s100 ;zK2o0NReOEzARfQG`]In2
-Z49 !s108 1727410117.637000
-Z50 !s107 C:/Users/alexa/OneDrive/Documentos/GitHub/ED2/testbench_alterado.v|
+Z46 !s90 -reportprogress|300|-work|work|C:/Users/alexa/OneDrive/Documentos/GitHub/ED2/testbench_alterado.v|
+R10
+Z47 !s108 1727411075.445000
+Z48 !s107 C:/Users/alexa/OneDrive/Documentos/GitHub/ED2/testbench_alterado.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vtb_relogio
-!i10b 1
-!s100 RMD=:To[o[0?1c8khX:MD2
-IPSif=n>;Um8>LA24LT7g[2
+Z49 !s100 RMD=:To[o[0?1c8khX:MD2
+Z50 IPSif=n>;Um8>LA24LT7g[2
 Z51 V8;UDQKB<:APT85a8kajJJ1
-R3
-w1727410408
-Z52 8C:/Users/alexa/OneDrive/Documentos/GitHub/ED2/Testbench.v
-Z53 FC:/Users/alexa/OneDrive/Documentos/GitHub/ED2/Testbench.v
+R4
+Z52 w1727410408
+Z53 8C:/Users/alexa/OneDrive/Documentos/GitHub/ED2/Testbench.v
+Z54 FC:/Users/alexa/OneDrive/Documentos/GitHub/ED2/Testbench.v
 L0 1
-R7
+R8
 r1
+31
+Z55 !s90 -reportprogress|300|-work|work|C:/Users/alexa/OneDrive/Documentos/GitHub/ED2/Testbench.v|
+R10
+Z56 !s108 1727411075.361000
+Z57 !s107 C:/Users/alexa/OneDrive/Documentos/GitHub/ED2/Testbench.v|
+!i10b 1
 !s85 0
-31
-!s108 1727410412.144000
-!s107 C:/Users/alexa/OneDrive/Documentos/GitHub/ED2/Testbench.v|
-Z54 !s90 -reportprogress|300|-work|work|C:/Users/alexa/OneDrive/Documentos/GitHub/ED2/Testbench.v|
 !s101 -O0
-R8
 vtestbench
-Z55 I9GXbkagL4VXOjg`L;W_M:3
-Z56 VhGfW:390DM[oDMzegDH9`2
-R3
-Z57 w1727405528
+Z58 I9GXbkagL4VXOjg`L;W_M:3
+Z59 VhGfW:390DM[oDMzegDH9`2
+R4
+Z60 w1727405528
+R44
 R45
-R46
 L0 3
-R7
+R8
 r1
 31
-R8
-Z58 !s100 M3EI_SG`^n92G8kDo=77M0
-Z59 !s108 1727405543.249000
-R50
-R47
+R10
+Z61 !s100 M3EI_SG`^n92G8kDo=77M0
+Z62 !s108 1727405543.249000
+R48
+R46
 !i10b 1
 !s85 0
 !s101 -O0
 vtestbench_alterado
-Z60 IXP^aLaQ`8aMENf^ebz3Ah0
-Z61 VZ?U4bU`@gZ?WYZP]3ZzND0
-R3
-Z62 w1727408999
+Z63 IXP^aLaQ`8aMENf^ebz3Ah0
+Z64 VZ?U4bU`@gZ?WYZP]3ZzND0
+R4
+Z65 w1727408999
+R44
 R45
-R46
 L0 3
-R7
+R8
 r1
 31
-R47
-R8
-Z63 !s100 0Z2V0[U>`2REnDlA3Z^X70
-Z64 !s108 1727409025.629000
-R50
+R46
+R10
+Z66 !s100 0Z2V0[U>`2REnDlA3Z^X70
+Z67 !s108 1727409025.629000
+R48
 !i10b 1
 !s85 0
 !s101 -O0

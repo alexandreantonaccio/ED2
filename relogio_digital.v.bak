@@ -54,12 +54,12 @@ always @(posedge clk_1s or posedge reset) begin
     end 
     else begin  
         tmp_s <= tmp_s + 1;
-        if(tmp_s >= 59) begin // digito + sig = 5, - sig = 9
+        if(tmp_s >= 59) begin
             tmp_m <= tmp_m + 1;
             tmp_s <= 0;
-            if(tmp_m >= 59) begin // digito + sig = 5, - sig = 9
+            if(tmp_m >= 59) begin
                 tmp_m <= 0;
-                tmp_h <= tmp_h + 1; // digito + sig = 2, - sig = 4
+                tmp_h <= tmp_h + 1;
                 if(tmp_h >= 24) begin
                     tmp_h <= 0;
                 end
