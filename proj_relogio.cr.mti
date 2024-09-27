@@ -1,0 +1,43 @@
+C:/Users/alexa/OneDrive/Documentos/GitHub/ED2/relogio_digital.v {1 {vlog -work work C:/Users/alexa/OneDrive/Documentos/GitHub/ED2/relogio_digital.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module relogio
+
+Top level modules:
+	relogio
+
+} {} {}} C:/Users/alexa/OneDrive/Documentos/GitHub/ED2/testbench_alterado.v {1 {vlog -work work C:/Users/alexa/OneDrive/Documentos/GitHub/ED2/testbench_alterado.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module relogio_tb
+
+Top level modules:
+	relogio_tb
+
+} {} {}} C:/Users/alexa/OneDrive/Documentos/GitHub/ED2/cd4017.v {1 {vlog -work work C:/Users/alexa/OneDrive/Documentos/GitHub/ED2/cd4017.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module CD4017_custom
+
+Top level modules:
+	CD4017_custom
+
+} {} {}} C:/Users/alexa/OneDrive/Documentos/GitHub/ED2/relogio_modificado.v {1 {vlog -work work C:/Users/alexa/OneDrive/Documentos/GitHub/ED2/relogio_modificado.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module relogio_alterado
+
+Top level modules:
+	relogio_alterado
+
+} {} {}} C:/Users/alexa/OneDrive/Documentos/GitHub/ED2/Testbench.v {1 {vlog -work work C:/Users/alexa/OneDrive/Documentos/GitHub/ED2/Testbench.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module tb_relogio
+
+Top level modules:
+	tb_relogio
+
+} {} {}} C:/Users/alexa/OneDrive/Documentos/GitHub/ED2/cd4017_og.v {1 {vlog -work work C:/Users/alexa/OneDrive/Documentos/GitHub/ED2/cd4017_og.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module CD4017
+
+Top level modules:
+	CD4017
+
+} {} {}}
