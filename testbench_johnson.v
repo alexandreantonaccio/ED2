@@ -18,6 +18,10 @@ module relogio_johnson_tb;
     wire [9:0] M_out0_johnson;
     wire [9:0] S_out1_johnson;
     wire [9:0] S_out0_johnson;
+    wire reg_0_15s;
+    wire reg_15_30s;
+    wire reg_30_45s;
+    wire reg_45_59s;
 
     relogio_johnson uut (
         .reset(reset),
@@ -32,7 +36,11 @@ module relogio_johnson_tb;
         .M_out1_johnson(M_out1_johnson),
         .M_out0_johnson(M_out0_johnson),
         .S_out1_johnson(S_out1_johnson),
-        .S_out0_johnson(S_out0_johnson)
+        .S_out0_johnson(S_out0_johnson),
+        .reg_0_15s(reg_0_15s),
+        .reg_15_30s(reg_15_30s),
+        .reg_30_45s(reg_30_45s),
+        .reg_45_59s(reg_45_59s)
     );
 
 
