@@ -1,0 +1,99 @@
+
+`timescale 1ns / 1ps
+
+module relogio_johnson_tb;
+
+    // ================================
+    // Declaração de Entradas e Saídas
+    // ================================
+
+    // Entradas
+    reg reset;
+    reg clk;
+    reg LD_time;
+    reg [1:0] H_in1;
+    reg [3:0] H_in0;
+    reg [3:0] M_in1;
+    reg [3:0] M_in0;
+
+    // Saídas
+    wire [9:0] H_out1_johnson;
+    wire [9:0] H_out0_johnson;
+    wire [9:0] M_out1_johnson;
+    wire [9:0] M_out0_johnson;
+    wire [9:0] S_out1_johnson;
+    wire [9:0] S_out0_johnson;
+
+    // ================================
+    // Instanciação do Módulo
+    // ================================
+
+    relogio_johnson uut (
+        .reset(reset),
+        .clk(clk),
+        .LD_time(LD_time),
+        .H_in1(H_in1),
+        .H_in0(H_in0),
+        .M_in1(M_in1),
+        .M_in0(M_in0),
+        .H_out1_johnson(H_out1_johnson),
+        .H_out0_johnson(H_out0_johnson),
+        .M_out1_johnson(M_out1_johnson),
+        .M_out0_johnson(M_out0_johnson),
+        .S_out1_johnson(S_out1_johnson),
+        .S_out0_johnson(S_out0_johnson)
+    );
+
+    // ================================
+    // Geração de Clock
+    // ================================
+
+    initial clk = 0;
+    always #5 clk = ~clk; // Clock com período de 10ns
+
+    // ================================
+    // Aplicação de Estímulos
+    // ================================
+
+    initial begin
+        // Inicialização das Entradas
+        reset = 1;
+        LD_time = 0;
+        H_in1 = 2'b00;
+        H_in0 = 4'd0;
+        M_in1 = 4'd0;
+        M_in0 = 4'd0;
+
+        // Aplicar Reset
+        #10;
+        reset = 0;
+
+        // Carregar Tempo Inicial
+        #10;
+        LD_time = 1;
+        H_in1 = 2'b01; // 10 horas
+        H_in0 = 4'd5;  // 5 horas
+        M_in1 = 4'd3;  // 30 minutos
+        M_in0 = 4'd0;  // 0 minutos
+        #10;
+        LD_time = 0;
+
+        // Simular Contagem de Tempo
+        // Executa por um tempo suficiente para observar a contagem
+        #1000;
+
+        // Finalizar Simulação
+        $finish;
+    end
+
+    // ================================
+    // Monitoramento das Saídas
+    // ================================
+
+    initial begin
+        $monitor("Tempo: %0t | Reset: %b | LD_time: %b | H_in: %b %b | M_in: %b %b | H_out1_j: %b | H_out0_j: %b | M_out1_j: %b | M_out0_j: %b | S_out1_j: %b | S_out0_j: %b",
+                 $time, reset, LD_time, H_in1, H_in0, M_in1, M_in0,
+                 H_out1_johnson, H_out0_johnson, M_out1_johnson, M_out0_johnson, S_out1_johnson, S_out0_johnson);
+    end
+
+endmodule
