@@ -36,7 +36,7 @@ module relogio_johnson_tb;
         .M_out1_johnson(M_out1_johnson),
         .M_out0_johnson(M_out0_johnson),
         .S_out1_johnson(S_out1_johnson),
-        .S_out0_johnson(S_out0_johnson)
+        .S_out0_johnson(S_out0_johnson),
         .reg_0_15s(reg_0_15s),
         .reg_15_30s(reg_15_30s),
         .reg_30_45s(reg_30_45s),
@@ -63,9 +63,9 @@ module relogio_johnson_tb;
 
         #10;
         LD = 1;
-        H_in1 = 2'b01;
-        H_in0 = 4'd5;
-        M_in1 = 4'd3;
+        H_in1 = 2'b00;
+        H_in0 = 4'd0;
+        M_in1 = 4'd0;
         M_in0 = 4'd0;
         #10;
         LD = 0;

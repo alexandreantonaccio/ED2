@@ -51,21 +51,13 @@ module relogio_johnson_tb;
 
     initial begin
 
-        reset = 1;
-        LD = 0;
-        H_in1 = 2'd1;
-        H_in0 = 4'd0;
-        M_in1 = 4'd0;
-        M_in0 = 4'd0;
-
-        #10;
         reset = 0;
 
         #10;
         LD = 1;
-        H_in1 = 2'b01;
-        H_in0 = 4'd5;
-        M_in1 = 4'd3;
+        H_in1 = 2'b00;
+        H_in0 = 4'd0;
+        M_in1 = 4'd0;
         M_in0 = 4'd0;
         #10;
         LD = 0;
