@@ -1,7 +1,7 @@
 module relogio_johnson(
     input reset,
     input clk,
-    input LD_time,
+    input LD,
     input [1:0] H_in1,
     input [3:0] H_in0,
     input [3:0] M_in1,
@@ -22,7 +22,7 @@ always @(posedge clk or posedge reset) begin
         cnt_sec_0 <= 0;
         cnt_sec_1 <= 0;
     end
-    else if (LD_time) begin
+    else if (LD) begin
         cnt_sec_0 <= 0;
         cnt_sec_1 <= 0;
     end
@@ -47,7 +47,7 @@ always @(posedge clk or posedge reset) begin
         cnt_min_0 <= 0;
         cnt_min_1 <= 0;
     end
-    else if (LD_time) begin
+    else if (LD) begin
         cnt_min_0 <= M_in0;
         cnt_min_1 <= M_in1;
     end
@@ -72,7 +72,7 @@ always @(posedge clk or posedge reset) begin
         cnt_hr_0 <= 0;
         cnt_hr_1 <= 0;
     end
-    else if (LD_time) begin
+    else if (LD) begin
         cnt_hr_0 <= H_in0;
         cnt_hr_1 <= H_in1;
     end

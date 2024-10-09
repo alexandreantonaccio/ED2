@@ -5,7 +5,7 @@ module relogio_johnson_tb;
 
     reg reset;
     reg clk;
-    reg LD_time;
+    reg LD;
     reg [1:0] H_in1;
     reg [3:0] H_in0;
     reg [3:0] M_in1;
@@ -22,7 +22,7 @@ module relogio_johnson_tb;
     relogio_johnson uut (
         .reset(reset),
         .clk(clk),
-        .LD_time(LD_time),
+        .LD(LD),
         .H_in1(H_in1),
         .H_in0(H_in0),
         .M_in1(M_in1),
@@ -44,7 +44,7 @@ module relogio_johnson_tb;
     initial begin
 
         reset = 1;
-        LD_time = 0;
+        LD = 0;
         H_in1 = 2'd1;
         H_in0 = 4'd0;
         M_in1 = 4'd0;
@@ -54,13 +54,13 @@ module relogio_johnson_tb;
         reset = 0;
 
         #10;
-        LD_time = 1;
+        LD = 1;
         H_in1 = 2'b01;
         H_in0 = 4'd5;
         M_in1 = 4'd3;
         M_in0 = 4'd0;
         #10;
-        LD_time = 0;
+        LD = 0;
 
         #1000;
 

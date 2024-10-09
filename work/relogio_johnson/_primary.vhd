@@ -4,7 +4,7 @@ entity relogio_johnson is
     port(
         reset           : in     vl_logic;
         clk             : in     vl_logic;
-        LD_time         : in     vl_logic;
+        LD              : in     vl_logic;
         H_in1           : in     vl_logic_vector(1 downto 0);
         H_in0           : in     vl_logic_vector(3 downto 0);
         M_in1           : in     vl_logic_vector(3 downto 0);

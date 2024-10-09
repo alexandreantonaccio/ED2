@@ -82,31 +82,31 @@ Z41 !s107 C:/Users/alexa/OneDrive/Documentos/GitHub/ED2/relogio_modificado.v|
 !s85 0
 !s101 -O0
 vrelogio_johnson
-Z42 IOMD`Ol>KSBS7kaJ8`baKG2
-Z43 V>Y4R=EX`mN:iDi3a3]GVP1
+Z42 !s100 5PBmXok^X4=@6^b341h:N1
+Z43 IYnD7g3Q1HW`HMKOf6j=S?0
+Z44 V=@eM8kjBi@0PoWkLj;YTi0
 R4
-Z44 w1728442739
-Z45 8C:/Users/alexa/OneDrive/Documentos/GitHub/ED2/contador_johnson.v
-Z46 FC:/Users/alexa/OneDrive/Documentos/GitHub/ED2/contador_johnson.v
+Z45 w1728443600
+Z46 8C:/Users/alexa/OneDrive/Documentos/GitHub/ED2/contador_johnson.v
+Z47 FC:/Users/alexa/OneDrive/Documentos/GitHub/ED2/contador_johnson.v
 L0 1
 R8
 r1
 31
-Z47 !s90 -reportprogress|300|-work|work|C:/Users/alexa/OneDrive/Documentos/GitHub/ED2/contador_johnson.v|
+Z48 !s90 -reportprogress|300|-work|work|C:/Users/alexa/OneDrive/Documentos/GitHub/ED2/contador_johnson.v|
 R10
-Z48 !s100 lh81N7NcVN]z_Hl_LGj]91
-Z49 !s108 1728442745.031000
-Z50 !s107 C:/Users/alexa/OneDrive/Documentos/GitHub/ED2/contador_johnson.v|
 !i10b 1
 !s85 0
+Z49 !s108 1728443684.759000
+Z50 !s107 C:/Users/alexa/OneDrive/Documentos/GitHub/ED2/contador_johnson.v|
 !s101 -O0
 vrelogio_johnson_tb
 !i10b 1
-Z51 !s100 fiKAST8[7OT5<Yc^JG4LP0
-Z52 Ib3goe?>T8iIH4o50ne=6D2
+Z51 !s100 onWQ5Y;OcA[j7WIjDeEbP1
+Z52 I>PPzT5POic0fm>cl>VPc@0
 Z53 VRDOiP[8fSJXBSm0SUHWF60
 R4
-Z54 w1728443196
+Z54 w1728443663
 Z55 8C:/Users/alexa/OneDrive/Documentos/GitHub/ED2/testbench_johnson.v
 Z56 FC:/Users/alexa/OneDrive/Documentos/GitHub/ED2/testbench_johnson.v
 L0 4
@@ -114,7 +114,7 @@ R8
 r1
 !s85 0
 31
-!s108 1728443267.354000
+!s108 1728443684.799000
 !s107 C:/Users/alexa/OneDrive/Documentos/GitHub/ED2/testbench_johnson.v|
 Z57 !s90 -reportprogress|300|-work|work|C:/Users/alexa/OneDrive/Documentos/GitHub/ED2/testbench_johnson.v|
 !s101 -O0
