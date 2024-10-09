@@ -108,23 +108,23 @@ reg [5:0] tmp_s;
         end
     end
 
-    // Lógica para determinar os intervalos de tempo
+
     always @(*) begin
-        // Resetar registradores
+
         reg_0_15s = 0;
         reg_15_30s = 0;
         reg_30_45s = 0;
         reg_45_59s = 0;
 
-        // Ativar o registrador apropriado com base no valor de tmp_s
+
         if (tmp_s < 15) begin
-            reg_0_15s = 1;  // Ativo para 0 a 15 segundos
+            reg_0_15s = 1;  
         end else if (tmp_s < 30) begin
-            reg_15_30s = 1;  // Ativo para 15 a 30 segundos
+            reg_15_30s = 1; 
         end else if (tmp_s < 45) begin
-            reg_30_45s = 1;  // Ativo para 30 a 45 segundos
+            reg_30_45s = 1; 
         end else if (tmp_s <= 59) begin
-            reg_45_59s = 1;  // Ativo para 45 a 59 segundos
+            reg_45_59s = 1;
         end
     end
 

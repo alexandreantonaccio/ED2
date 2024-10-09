@@ -4,40 +4,40 @@ K3
 cModel Technology
 Z0 dC:\altera\13.0sp1
 vrelogio_johnson
-Z1 IBS72]:Pc4FkFL6kT:7J:12
-Z2 V`Z5B5IhPD4=^4d`fb58GX0
-Z3 dC:\Users\alexa\OneDrive\Documentos\GitHub\ED2\work
-Z4 w1728445005
-Z5 8C:/Users/alexa/OneDrive/Documentos/GitHub/ED2/contador_johnson.v
-Z6 FC:/Users/alexa/OneDrive/Documentos/GitHub/ED2/contador_johnson.v
+Z1 !s100 Qn]6j_Ke4Ld3RPEN;cPKo0
+Z2 IBS72]:Pc4FkFL6kT:7J:12
+Z3 V`Z5B5IhPD4=^4d`fb58GX0
+Z4 dC:\Users\alexa\OneDrive\Documentos\GitHub\ED2\work
+Z5 w1728445176
+Z6 8C:/Users/alexa/OneDrive/Documentos/GitHub/ED2/contador_johnson.v
+Z7 FC:/Users/alexa/OneDrive/Documentos/GitHub/ED2/contador_johnson.v
 L0 1
-Z7 OV;L;10.1d;51
+Z8 OV;L;10.1d;51
 r1
 31
-Z8 !s90 -reportprogress|300|-work|work|C:/Users/alexa/OneDrive/Documentos/GitHub/ED2/contador_johnson.v|
-Z9 o-work work -O0
+Z9 !s90 -reportprogress|300|-work|work|C:/Users/alexa/OneDrive/Documentos/GitHub/ED2/contador_johnson.v|
+Z10 o-work work -O0
 !i10b 1
-Z10 !s100 Qn]6j_Ke4Ld3RPEN;cPKo0
 !s85 0
-Z11 !s108 1728445029.920000
+Z11 !s108 1728445187.463000
 Z12 !s107 C:/Users/alexa/OneDrive/Documentos/GitHub/ED2/contador_johnson.v|
 !s101 -O0
 vrelogio_johnson_tb
 !i10b 1
-!s100 XD4Wk1R[J<1JSLbdl5Sh[3
-IRY<J>WenAH`BGnU>E?ZUR0
-Z13 VRDOiP[8fSJXBSm0SUHWF60
-R3
-w1728445026
-Z14 8C:/Users/alexa/OneDrive/Documentos/GitHub/ED2/testbench_johnson.v
-Z15 FC:/Users/alexa/OneDrive/Documentos/GitHub/ED2/testbench_johnson.v
+Z13 !s100 XD4Wk1R[J<1JSLbdl5Sh[3
+Z14 IRY<J>WenAH`BGnU>E?ZUR0
+Z15 VRDOiP[8fSJXBSm0SUHWF60
+R4
+Z16 w1728445026
+Z17 8C:/Users/alexa/OneDrive/Documentos/GitHub/ED2/testbench_johnson.v
+Z18 FC:/Users/alexa/OneDrive/Documentos/GitHub/ED2/testbench_johnson.v
 L0 4
-R7
+R8
 r1
 !s85 0
 31
-!s108 1728445029.965000
+!s108 1728445187.500000
 !s107 C:/Users/alexa/OneDrive/Documentos/GitHub/ED2/testbench_johnson.v|
-Z16 !s90 -reportprogress|300|-work|work|C:/Users/alexa/OneDrive/Documentos/GitHub/ED2/testbench_johnson.v|
+Z19 !s90 -reportprogress|300|-work|work|C:/Users/alexa/OneDrive/Documentos/GitHub/ED2/testbench_johnson.v|
 !s101 -O0
-R9
+R10

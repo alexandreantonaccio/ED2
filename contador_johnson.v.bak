@@ -93,6 +93,8 @@ always @(posedge clk or posedge reset) begin
     end
 end
 
+reg [5:0] tmp_s;
+
  always @(posedge clk or posedge reset) begin
         if (reset) begin
             tmp_s <= 0;
